@@ -9,4 +9,4 @@ jobs:
       - checkout
 
       # setup testing env
-      - run: ./mvnw clean install
+      - run: mvn clean install
